@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحباً بك</title>
+    <style>
+        /* تعيين الخطوط والأنماط الأساسية */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+            direction: rtl;
+        }
+
+        /* رأس الصفحة */
+        header {
+            position: relative;
+            height: 400px; /* تحديد ارتفاع الرأس */
+            background: url('https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-high-tech-background-image_265852.jpg') no-repeat center center; /* إضافة الصورة كخلفية */
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* تأثير الظل على النص */
+        }
+
+        header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        header h2 {
+            font-size: 24px;
+            margin-top: 10px;
+            font-weight: normal;
+            color: white;
+        }
+
+        /* شريط التنقل */
+        nav {
+            background-color: #343a40;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 18px 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #007bff;
+        }
+
+        /* قسم المحتوى */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        /* تنسيق الأقسام المختلفة */
+        section {
+            margin-bottom: 60px;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #0066cc;
+            border-bottom: 2px solid #0066cc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #6c757d;
+        }
+
+        /* تنسيق قسم التواصل */
+        .contact-info {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #6c757d;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* وسائل الراحة */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            nav a {
+                font-size: 16px;
+                padding: 14px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحباً بكم في موقعي الشخصي</h1>
+    <h2>سعود بن يحيى بن سلامة الفويس</h2>
+</header>
+
+<nav>
+    <a href="ddd.html" class="intro-link">مقدمة عني</a>
+>
+  <a href="btg.html" class="about-link">عني</a>
+>
+
+ <a href="dvd.html" class="works-link">الأعمال</a>
+>
+
+    <a href="#contact">التواصل</a>
+</nav>
+
+<div class="container">
+    <section id="home" class="fade-in">
+        <h2>الصفحة الرئيسية</h2>
+        <p>مرحبًا بكم في موقعي! أنا **سعود بن يحيى بن سلامة الفويس**. شغوف بالتكنولوجيا والبيانات، وأهتم بشكل كبير في تعلم كل ما هو جديد. أركز على تحسين نفسي وتطوير مهاراتي في مجال التقنية والبرمجة، وأسعى دائمًا لإيجاد حلول مبتكرة للتحديات المعاصرة.</p>
+        <p>أؤمن بأن التعلم المستمر والتطوير الذاتي هو مفتاح النجاح، وأعمل بجد لتطوير مهاراتي في مختلف المجالات مثل البرمجة، تحليل البيانات، وبناء المواقع الإلكترونية. هدفي هو أن أكون جزءًا من المجتمع الذي يسهم في التحول الرقمي الذي يحدث في عالمنا اليوم.</p>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>عني</h2>
+        <p>أنا شخص متحمس للتكنولوجيا والبيانات، وأهتم بشدة بفهم كيفية تأثير البيانات على اتخاذ القرارات في مختلف المجالات. أعشق التعلم واكتشاف الأشياء الجديدة، ولدي شغف في تطوير مهاراتي بشكل مستمر. على الرغم من أنني ما زلت في مرحلة التخرج، فإنني أركز كثيرًا على تطوير نفسي على المستويين الأكاديمي والمهني. أعمل حاليًا على تعلم اللغة الإنجليزية وتحسين مهاراتي في التواصل وتطوير نفسي من خلال المشاركة في الدورات التدريبية المختلفة.</p>
+    </section>
+
+    <section id="works" class="fade-in">
+        <h2>الأعمال</h2>
+        <p>أعتبر التطوير الشخصي من أولوياتي، وأركز على تطوير مهاراتي قبل التخرج من الجامعة. أعمل على تحسين مستواي في اللغة الإنجليزية من خلال ممارسة اللغة يوميًا. بالإضافة إلى ذلك، أركز على تحسين مهارات التواصل والعمل الجماعي. أؤمن بأن تطوير النفس هو أساس النجاح في الحياة الشخصية والمهنية، ولذا أستثمر وقتي في التفاعل مع المحتوى التعليمي المختلف والمشاركة في الدورات التدريبية لتوسيع آفاق معرفتي.</p>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="fade-in">
+        <h2>التواصل</h2>
+        <div class="contact-info">
+            <p>إذا كنت ترغب في التعاون أو لديك أي استفسارات، يمكنك التواصل معي عبر:</p>
+            <p><strong>رقم الجوال:</strong> <a href="tel:+966535553785">0535553785</a></p>
+            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:m.q50@hotmail.com">m.q50@hotmail.com</a></p>
+            <p><strong>الرقم الجامعي:</strong> 2210001658</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
+
